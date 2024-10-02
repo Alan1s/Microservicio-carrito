@@ -14,8 +14,8 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 @Accessors(chain = true)
 public class Carrito_dto {
-    private long id_Servicio;
     private long id_Carrito;
+    private long id_Servicio;
     private int cantidad;
     private Date FechaInicio;
     private Date FechaFinal;

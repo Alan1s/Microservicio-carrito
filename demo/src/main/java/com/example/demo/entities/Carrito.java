@@ -19,8 +19,8 @@ import lombok.Setter;
 public class Carrito {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id_Servicio;
     private long id_Carrito;
+    private long id_Servicio;
     private int cantidad;
     private Date FechaInicio;
     private Date FechaFinal;
